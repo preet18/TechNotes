@@ -1,3 +1,4 @@
+[20th AUG 2022]()
 ## REST
 Representative State Transfer
 It’s an architectural style. APIs which use this Architectural Style are called REST APIs.
@@ -18,15 +19,19 @@ The system which follows below format is called Restful Architecture
 A system which has a client and a server
 ### 2. Uniform Interface
 All the interfaces are uniform in nature, which means that clients, servers and network based intermediaries interact is uniform/similar in nature
-a.	Identification of Resources
+**a.	Identification of Resources**
 Each resource has a unique identifier, i.e URI. For eg: a particular home page, URI like http://www.orielly.com, uniquely identifies the websites root resource.
-b.	Manipulation of resources through representations
+
+**b.	Manipulation of resources through representations**
 Resource from the webserver could be common, but it could be manipulated at the client side as HTML or JSON or anything as per the required way we could represent/manipulate the resource.
-c.	Self-descriptive messages
+
+**c.	Self-descriptive messages**
 A resource desired state could be represented in request message by client. In the same way the current resource state could be represented in the response message by server. 
 Example – Metadata could be represented in the HTTP Headers
-d.	Hypermedia as the engine of application State (HATEOAS)
+
+**d.	Hypermedia as the engine of application State (HATEOAS)**
 A resource’s state representation includes links to related resources.
+
 ### 3. Layered System
 Proxy/gateways between the client and server. These intermediaries are used to enforce security, response caching and load balancing.
 ### 4. Cache
