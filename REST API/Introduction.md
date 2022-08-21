@@ -6,10 +6,13 @@ So what’s the architecture of Rest?
 The system which follows below format is called Restful Architecture
 1.	Client-Server
 2.	Uniform Interface
-  a.	Identification of Resources
-  b.	Manipulation of resources through representations
-  c.	Self-descriptive messages
-  d.	Hypermedia as the engine of application state(HATEOAS)
+
+a.	Identification of Resources
+b.	Manipulation of resources through representations
+c.	Self-descriptive messages
+d.	Hypermedia as the engine of application state(HATEOAS)
+
+
 3.	Layered System
 4.	Cache
 5.	Stateless
