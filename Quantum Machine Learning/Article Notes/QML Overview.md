@@ -33,13 +33,16 @@ Companies like IBM and D-Wave offer cloud-based access to their QPUs, allowing d
 - High Perf classical computers often work in tandem with QPUs to handle these tasks efficiently.
 
 ## Hybrid algorithms:
-- QML often employs hybrid algorithms that combine quantum and classical techniques. 
+- QML often employs hybrid algorithms that _**combine quantum and classical techniques**_. 
 - For example, the Variational Quantum Eigensolver (VQE) and Quantum Approximate Optimisation Algorithm (QAOA) use quantum circuits to perform specific parts of the computation, while classical algorithms optimise the overall process.
 
 ## Data Management:
-- Efficient data management systems are crucial for handling the large volumes of data typically involved in machine learning tasks. 
-- These systems must support the seamless transfer of data between classical and quantum systems.
+- Efficient data management systems are crucial for **_handling the large volumes of data typically involved in machine learning tasks_**. 
+- These systems must support the _**seamless transfer of data between classical and quantum systems**_.
 
 ## Development Environment:
 - A Development environment such as **_IBM's Qiskit_** or **_Google's Cirq_**, provides the necessary tools and libraries for developing and testing quantum algorithms.
 - These environments often include simulators, debuggers, and visualisation tools to aid developers in their work.
+
+<img width="1325" alt="image" src="https://github.com/user-attachments/assets/bc0adf17-7545-4521-b6d1-33b36e9cb79d" />
+
